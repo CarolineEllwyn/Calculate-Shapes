@@ -59,6 +59,7 @@ public class Main {
                     System.out.println("Triangle: " + calculateRightAngleTriangle.calculateRightAngleTriangle(triangleHeight, triangleBase));
                     break;
                 default:
+                    System.out.println("Invalid input");
                     break;
             }
         } while (valid);
